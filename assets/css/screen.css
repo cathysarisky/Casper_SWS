@@ -305,7 +305,11 @@ production stylesheet in assets/built/screen.css
 }
 
 .is-head-left-logo.home-template .gh-head:not(.is-header-hidden) .gh-head-logo {
-    display: none;
+    /*display: none;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 32px;
 }
 
 .is-head-left-logo.home-template .gh-head:not(.is-header-hidden) .gh-head-menu {
